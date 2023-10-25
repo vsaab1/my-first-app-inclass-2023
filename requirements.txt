@@ -9,3 +9,5 @@ plotly
 
 # ImportError: Plotly express requires pandas to be installed.
 pandas
+
+python-dotenv
