@@ -1,6 +1,10 @@
 
+<<<<<<< HEAD
 
 #imports at the top 
+=======
+# IMPORTS AT THE TOP
+>>>>>>> 0463f11bc4bd45ea165da80c0d01470faaa9c30c
 
 import os
 import json
@@ -11,7 +15,11 @@ from dotenv import load_dotenv
 import requests
 from plotly.express import line
 
+<<<<<<< HEAD
 #any environment variables or constants
+=======
+# ENVIRONMENT VARIABLES AND CONSTANTS
+>>>>>>> 0463f11bc4bd45ea165da80c0d01470faaa9c30c
 
 load_dotenv() # go look in the .env file for any env vars
 
@@ -19,12 +27,22 @@ API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
 #breakpoint()
 
+<<<<<<< HEAD
 #quilt()
 
 #Functions
 
 #running code
 
+=======
+#quit()
+
+# FUNCTIONS
+
+# ...
+
+# WORKING CODE
+>>>>>>> 0463f11bc4bd45ea165da80c0d01470faaa9c30c
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
 
@@ -53,7 +71,10 @@ print(f"{data[0]['value']}%", "as of", data[0]["date"])
 # What is the average unemployment rate for all months during this calendar year?
 # ... How many months does this cover?
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0463f11bc4bd45ea165da80c0d01470faaa9c30c
 
 this_year = [d for d in data if "2023-" in d["date"]]
 
@@ -68,6 +89,10 @@ print("NO MONTHS:", len(this_year))
 #
 # Plot a line chart of unemployment rates over time.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0463f11bc4bd45ea165da80c0d01470faaa9c30c
 dates = [d["date"] for d in data]
 rates = [float(d["value"]) for d in data]
 
