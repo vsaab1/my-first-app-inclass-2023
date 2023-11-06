@@ -33,7 +33,7 @@ def send_email(recipient_address=MAILGUN_SENDER_ADDRESS, subject="[Shopping Cart
         print(f"Error sending email: {str(e)}")
 
 
-
-send_email()
+if __name__ == '__main__':
+    send_email()
 
 

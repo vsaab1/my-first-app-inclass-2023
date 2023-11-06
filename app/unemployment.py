@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 import requests
 from plotly.express import line
 
-from app.emailservice import = send_email
+from app.emailservice import send_email
 
 # ENVIRONMENT VARIABLES AND CONSTANTS
 
@@ -77,6 +77,8 @@ rates = [float(d["value"]) for d in data]
 fig = line(x=dates, y=rates, title="United States Unemployment Rate over time", labels= {"x": "Month", "y": "Unemployment Rate"})
 fig.show()
 
+#email sending
+
 user_address = input("Please enter your email address: ")
 
 
@@ -88,4 +90,4 @@ content = f"""
 
 <p> Latest rate: {latest_rate}% as of {latest_date} </p>
 """
-
+send_email(recipient_address=user_address, subject="unemployment report", html_content=content)
