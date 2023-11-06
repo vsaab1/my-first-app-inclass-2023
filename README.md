@@ -43,3 +43,17 @@ Run the unemployment report:
 ```sh
 python -m app/unemployment.py
 ```
+
+# testing section
+
+Run tests:
+
+```sh
+pytest
+```
+
+
+
+
+
+
