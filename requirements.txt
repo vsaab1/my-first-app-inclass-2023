@@ -12,6 +12,8 @@ pandas
 
 python-dotenv
 
+flask
+
 # TEST
 
 pytest
