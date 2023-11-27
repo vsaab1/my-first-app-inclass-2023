@@ -32,7 +32,7 @@ def hello_world():
 
     message = f"Hello, {name}!"
     #return message
-    return render_template("hello.html", message=message)
+    return render_template("hello.html", message=message, x=5 )
 
 
 @home_routes.route("/api/books.json")
@@ -44,4 +44,4 @@ def books():
         {"id":3, "title": "Hunger Games", "author": "Collins"},
 
     ]
-    return books
+    return books 
