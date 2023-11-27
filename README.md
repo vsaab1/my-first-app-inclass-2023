@@ -45,6 +45,7 @@ Run the unemployment report:
 
 ```sh
 python -m app/unemployment.py
+python -m app/stocks.py
 ```
 python app/mymod.py
 
