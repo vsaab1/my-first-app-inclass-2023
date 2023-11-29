@@ -45,6 +45,7 @@ Run the unemployment report:
 
 ```sh
 python -m app/unemployment.py
+python -m app/stocks.py
 ```
 python app/mymod.py
 
@@ -56,7 +57,12 @@ Run tests:
 pytest
 ```
 
+# Windows OS:
+# ... if `export` doesn't work for you, try `set` instead
+# ... or set FLASK_APP variable via ".env" file
 
+export FLASK_APP=web_app
+flask run
 
 
 
