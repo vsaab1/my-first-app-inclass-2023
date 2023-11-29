@@ -17,3 +17,6 @@ flask
 # TEST
 
 pytest
+
+#production server needs this to run website
+gunicorn
