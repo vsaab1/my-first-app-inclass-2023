@@ -114,4 +114,4 @@ if __name__ == "__main__":
     <p> Latest rate: {latest_rate}% as of {latest_date} </p>
     """
 
-    send_email(recipient_address=user_address, html_content=content, subject="Your Unemployment Report"
+    send_email(recipient_address=user_address, html_content=content, subject="Your Unemployment Report")
