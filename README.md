@@ -27,10 +27,10 @@ Create a ".env" file and paste in the following contents:
 ```sh
 # this is the ".env" file...
 
-ALPHAVANTAGE_API_KEY=""
-MAILGUN_API_KEY=""
-MAILGUN_SENDER_ADDRESS=""
-MAILGUN_DOMAIN=""
+ALPHAVANTAGE_API_KEY="________"
+MAILGUN_API_KEY="_______"
+MAILGUN_SENDER_ADDRESS="________"
+MAILGUN_DOMAIN="_________"
 ```
 
 ## Usage
