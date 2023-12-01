@@ -12,7 +12,7 @@ pandas
 
 python-dotenv
 
-flask
+Flask
 
 # TEST
 
